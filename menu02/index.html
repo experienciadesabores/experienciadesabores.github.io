@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#D7AB84">
+  <title>Serginho Guimarães</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div class="imageWrapper">
+    <img src="./page01.jpg" width="100%">
+    <img src="./page02.jpg" width="100%">
+  </div><!-- .imageWrapper -->
+  <div class="texto">
+    <p>
+      Olá, pessoal!
+    </p>
+    <p>
+      Sob as bênçãos de Nosso Senhor, aqui estamos para servi-los com mais uma <strong>Experiência de Sabores ®.</strong>
+    </p>
+    <p>
+      Desta vez, a honra é maximizada pela exclusividade do atendimento a um casal do <span class="red">coração</span> do Serginho <strong>Carla & José Inácio</strong> e seus amigos.
+    </p>
+    <p>
+      Bem, hoje, trago a inspiração musical da cantora francesa Zaz, pela música <em>Si Jamais J’oublie</em>.
+    </p>
+    <p>
+      Essa foi escolhida, pois a mesma explicita o que realmente importa na vida. E traz isso de uma forma bem leve.
+    </p>
+    <p>
+      Bem, vamos aos vinhos!
+    </p>
+    <p>
+      Quando o Serginho pensou na composição deste menu, a delicadeza da entrada convidou o requinte dos pratos principais a um passeio de mãos dadas com o sabor esplêndido da <em>dessert</em>.
+    </p>
+    <p>
+      Bem, como <strong>entrada</strong>, teremos os já famosos mexilhões <em>à la crème</em>.
+    </p>
+    <p>
+      Para tal, a sugestão da uva branca <em>Chardonnay</em>, da região francesa de Borgonha, cai muito bem. Pois, essa uva harmoniza muito satisfatoriamente com o sabor delicado e potente.
+    </p>
+    <p>
+      Isso, porque, os aromas primários, geralmente, amanteigados, frutados e florais farão da acidez dessa uva a
+      companhia perfeita às entradas.
+    </p>
+    <p>
+      Já no <strong>prato principal</strong>, as alternativas de árdua escolha recaem sobre o <em>magret</em> na redução de tangerina com Risoto de Queijos e Risoto Fruto <em>di Mare</em>.
+    </p>
+    <p>
+    Vejamos que a Harmonização com o <em>magret</em> comumente terá o tom definido pelo seu modo de preparo. Logo, por conta da redução de tangerina, novamente, será apontada a <em>Chardonnay</em>, que é compreendida como "a mais tinta das uvas brancas", dada as notas marcantes e aromáticas da mesma.
+    </p>
+    <p>
+      Para o menu Risoto Fruto <em>di Mare</em> há uma excelente opção, menos comum, mas com forte percepção de toques florais e de especiarias: <em>Gewürztraminer</em>.
+    </p>
+    <p>
+      Essa uva é tão completamente interessante que parece ter origem alemã, mas é francesa. Ressalte-se que, atualmente, a mesma é produzida em diversos países, como a Nova Zelândia e no Canadá, por exemplo.
+    </p>
+    <p>
+      Chegando à <strong>sobremesa</strong> temos a indescritível Torta Francesa de Chocolate.
+    </p>
+    <p>
+      Costumo colocar que, caso deseje-se alguma outra proposta de vinho para acompanhar a sobremesa indica-se o Vinho
+      do Porto.
+    </p>
+
+    <p>
+      Lembramos que o mesmo deve ser apreciado com moderação, pela quantidade de álcool que apresenta, podendo chegar a
+      22%.
+    </p>
+    <p>
+      Que tenham uma ótima Experiência!
+    </p>
+    <p>
+      Que o Espírito Santo de Deus habite o lar de cada um.
+    <p>
+
+    <p class="assinatura">
+      Nayanne Guimarães
+    </p>
+
+  </div>
+
+  <audio preload="auto" id="player" loop src="./musica.mp3" type="audio/mpeg"></audio>
+
+  <div id="modal">
+    <h1>Bem-vindo(a)!</h1>
+    <h1>Clique no botão abaixo para ver nosso menu.</h1>
+    <button onclick="showMenu()">Visualizar</button>
+    <!-- <button onclick=" document.getElementById('player').pause()">Pause</button> -->
+  </div>
+</body>
+
+<script>
+  function showMenu() {
+    document.getElementById('player').play();
+    document.querySelector('#modal').style.display = "none";
+    document.querySelector('body').style.overflow = "auto";
+  }
+</script>
+
+</html>
