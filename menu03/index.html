@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <meta name="theme-color" content="#D7AB84">
+  <title>Serginho Guimarães</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div class="imageWrapper">
+    <img src="./page01.jpg" width="100%">
+  </div><!-- .imageWrapper -->
+
+  <div class="texto">
+    <p>
+      Olá, pessoal!
+    </p>
+    <p>
+      <span class="red">Santé</span>!
+    </p>
+
+    <p>Hoje, teremos o prazer de trazer até vocês a <strong>Experiência de Sabores ®</strong>.</p>
+
+    <p>Desta vez, a honra é maximizada pela exclusividade da acolhida ao pedido do casal <strong>Juliana & Alexandre</strong>, para servir ao <span class="red">Clube do Vinho de Sobral</span>.</p>
+
+    <p>Ah, também trouxemos um aperitivo sonoro. Certamente com as características da noite que iniciaremos: leve e descontraída.</p>
+
+    <p>
+      Que todos tenham uma ótima <strong>Experiência</strong>!
+    </p>
+    <p>
+      Que o Espírito Santo de Deus habite os seus lares.
+    <p>
+
+    <p class="assinatura">Serginho Guimarães</p>
+
+  </div>
+
+  <audio preload="auto" id="player" loop src="./musica.mp3" type="audio/mpeg"></audio>
+
+  <div id="modal">
+    <h1>Bem-vindo(a)!</h1>
+    <h1>Clique no botão abaixo para ver nosso menu.</h1>
+    <button onclick="showMenu()">Visualizar</button>
+    <!-- <button onclick=" document.getElementById('player').pause()">Pause</button> -->
+  </div>
+</body>
+
+<script>
+  function showMenu() {
+    document.getElementById('player').play();
+    document.querySelector('#modal').style.display = "none";
+    document.querySelector('body').style.overflow = "auto";
+  }
+</script>
+
+</html>
