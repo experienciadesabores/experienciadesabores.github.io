@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#D7AB84">
   <title>Serginho Guimarães</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiko&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEC5N72VSZ"></script> -->
@@ -22,27 +24,35 @@
 
 <body>
   <div id="modal">
-    <img class="perfil" src="./img/serginho.jpg" alt="Imagem de Serginho">
+    <img class="perfil" src="./img/serginho.webp" width="500" height="500" alt="Imagem de Serginho">
     <img class="decoration" src="../decoracao.svg" alt="Experiência de Sabores">
-    <h1>Bem-vindo(a)!</h1>
-    <h1>Toque no botão abaixo para ver nosso menu.</h1>
+
+    <div class="message">
+      <p>Bem-vindo(a)!</p>
+      <p>Toque no botão abaixo para ver nosso menu.</p>
+    </div>
+
     <button onclick="showMenu()">Visualizar</button>
     <!-- <button onclick=" document.getElementById('player').pause()">Pause</button> -->
   </div>
+
   <div class="imageWrapper">
     <img src="./img/page01p.jpg" width="100%">
     <img src="./img/page02p.jpg" width="100%">
   </div><!-- .imageWrapper -->
-  
+
   <div class="texto">
     <p>
       Olá, pessoal!
     </p>
     <p>Hoje, teremos o prazer de atendê-los!</p>
 
-    <p>Desta vez, a honra é maximizada pela exclusividade da acolhida ao pedido do grande amigo <strong>Érico Parente</strong>.</p>
+    <p>Desta vez, a honra é maximizada pela exclusividade da acolhida ao pedido do grande amigo <strong>Érico
+        Parente</strong>.</p>
 
-    <p>Bem, saibam que é um imenso prazer servir a maravilhosa equipe da <strong><span class="dark-blue">PARENTE</span> <span class="dark-yellow">ODONTOLOGIA</span> <span class="dark-blue">INTEGRADA</span></strong>, que vem se diferenciando por toda a dedicação, por toda a tecnologia e por todo o zelo direcionados aos seus pacientes.</p>
+    <p>Bem, saibam que é um imenso prazer servir a maravilhosa equipe da <strong><span class="dark-blue">PARENTE</span>
+        <span class="dark-yellow">ODONTOLOGIA</span> <span class="dark-blue">INTEGRADA</span></strong>, que vem se
+      diferenciando por toda a dedicação, por toda a tecnologia e por todo o zelo direcionados aos seus pacientes.</p>
 
     <p>Saibam que dessa forma vocês, de fato, estão transformando sorrisos em felicidade.</p>
 
@@ -57,7 +67,7 @@
     <p class="assinatura">Serginho Guimarães</p>
 
   </div>
-  
+
 
   <audio preload="auto" id="player" loop src="./musica.mp3" type="audio/mpeg"></audio>
 
