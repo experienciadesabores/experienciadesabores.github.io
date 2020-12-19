@@ -52,7 +52,7 @@ color: #FFC000;
 }
 
 #modal .perfil {
-  opacity: 0;
+  /* opacity: 0; */
   width: 50vw;
   height: 50vw;
   margin-top: 1.5rem;

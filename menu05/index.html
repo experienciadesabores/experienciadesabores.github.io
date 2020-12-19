@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../favicon.png" type="image/png">
+  <meta name="theme-color" content="#D7AB84">
+  <title>Serginho Guimarães</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiko&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Lora:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  Global site tag (gtag.js) - Google Analytics
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEC5N72VSZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-LEC5N72VSZ');
+  </script>
+
+</head>
+
+<body>
+  <div id="modal">
+    <picture>
+      <source srcset="./img/serginho.webp" class="perfl" type="image/webp">
+      <source srcset="./img/serginho.jpg" class="perfl" type="image/jpeg">
+      <img class="perfil" src="./img/serginho.jpg" width="500" height="500" alt="Imagem de Serginho">
+    </picture>
+
+    <img class="decoration" src="../decoracao.svg" alt="Experiência de Sabores">
+
+    <div class="message">
+      <p>Bem-vindo(a)!</p>
+      <p>Toque no botão abaixo para ver nosso menu.</p>
+    </div>
+
+    <button onclick="showMenu()">Visualizar</button>
+    <!-- <button onclick=" document.getElementById('player').pause()">Pause</button> -->
+  </div>
+
+  <div class="imageWrapper">
+    <img src="./img/menu01.jpg" width="100%">
+  </div><!-- .imageWrapper -->
+
+  <div class="texto">
+    <p>Olá, pessoal!</p>
+    <p><span class="red"><em>Santé!</em></span></p>
+
+    <p>Hoje, teremos o prazer de trazer até vocês a <strong>Experiência de Sabores ®</strong>.</p>
+    <p>Desta vez, a honra é maximizada pela exclusividade da acolhida ao pedido da <strong>Aline</strong>, para servir o <span class="red giant">Natal dos Irmãos Massilon</span>.</p>
+    <p>Ah, também trouxemos um aperitivo sonoro. Certamente com as características da noite que iniciaremos: leve e descontraída.</p>
+    <p>Que todos tenham uma ótima <strong>Experiência®!</strong></p>
+    <p>Que o Espírito Santo de Deus habite os seus lares.</p>
+    <p>Feliz Natal e que Deus abençoe o ano de 2021!</p>
+
+    <p class="assinatura">Serginho Guimarães</p>
+
+  </div>
+
+
+  <audio preload="auto" id="player" loop src="./musica.mp3" type="audio/mpeg"></audio>
+
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>
