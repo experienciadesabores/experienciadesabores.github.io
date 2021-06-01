@@ -176,3 +176,9 @@ button {
   font-size: 1.3rem;
   font-style: italic;
 }
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 75%;
+  }
+}
