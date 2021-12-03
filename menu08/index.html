@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../favicon.png" type="image/png">
+  <meta name="theme-color" content="#D7AB84">
+  <title>Serginho Guimarães</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Amiko&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Lora:wght@400;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lora:ital@1&family=Parisienne&display=swap"
+    rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEC5N72VSZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-LEC5N72VSZ');
+  </script>
+
+</head>
+
+<body>
+  <div id="modal">
+    <picture>
+      <source srcset="./img/serginho.webp" class="perfl" type="image/webp">
+      <source srcset="./img/serginho.jpg" class="perfl" type="image/jpeg">
+      <img class="perfil" src="./img/serginho.jpg" width="500" height="500" alt="Imagem de Serginho">
+    </picture>
+
+    <img class="decoration" src="../decoracao.svg" alt="Experiência de Sabores">
+
+    <div class="message">
+      <p>Bem-vindos!</p>
+      <p>Toquem no botão abaixo para ver nosso menu.</p>
+    </div>
+
+    <button onclick="showMenu()">Visualizar</button>
+    <!-- <button onclick=" document.getElementById('player').pause()">Pause</button> -->
+  </div>
+
+  <div class="container">
+    <div class="wrapper">
+      <h1 class="title">Serginho Guimarães</h1>
+      <img class="decoracao1" src="decoracao.svg">
+      <h2 class="subtitle">Experiência de Sabores</h2>
+      <img class="decoracao2" src="decoracao2.svg" alt="">
+      <h3 class="menu-title">Menu Especial</h3>
+      <h3 class="nome-noivos">Família Pedroza</h3>
+      <img class="decoracao3" src="decoracao3.svg" alt="">
+
+      <div class="wrapper-pratos">
+        <h4>Entrada</h4>
+        <ol>
+          <li>
+            <p>Burrata com Pesto de Tomate Cereja</p>
+          </li>
+          <li>
+            <p>Mexilhões a là Crème </p>
+          </li>
+          <li>
+            <p>Filé de Camarão com Crocante de Panko ao Alho</p>
+          </li>
+        </ol>
+
+        <h4>Prato principal</h4>
+        <ol>
+          <li>
+            <p>Filé mignon ao molho de vinho com risoto ao funghi e farofa de panko crocante</p>
+          </li>
+          <li>
+            <p>Migon na Redução de Merlot com Batatas Coradas</p>
+          </li>
+        </ol>
+
+        <h4>Sobremesa</h4>
+        <p>Cheesecake de frutas vermelhas</p>
+        <p>Cheesecake Mango Chutney</p>
+      </div>
+
+      <img src="./decoracao4.svg" alt="" class="decoracao4">
+
+    </div>
+  </div>
+
+  <audio preload="auto" id="player" loop src="./musica.mp3" type="audio/mpeg"></audio>
+
+</body>
+
+<script src="./js/script.js"></script>
+
+</html>
