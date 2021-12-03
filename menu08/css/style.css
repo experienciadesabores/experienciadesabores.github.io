@@ -151,11 +151,13 @@ button {
 }
 
 .wrapper-pratos {
-  width: 75%;
+  width: 90%;
+  max-width: 600px;
   text-align: center;
   letter-spacing: 0.1rem;
   font-family: 'Lora', serif;
   font-size: 1.6rem;
+  margin: 0 auto;
 }
 
 .wrapper-pratos h4 {
